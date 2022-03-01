@@ -1,0 +1,17 @@
+#contain{
+    height:340px;
+    width:800px;
+}
+#video{
+    height:340px;
+    width:650px;
+    background-color:bisque;
+    margin-right:10px;
+    float: Left;
+}
+#image > a > img{
+    height:100px;
+    width: 140px;
+    margin-bottom: 20px;
+    float:Left;
+}

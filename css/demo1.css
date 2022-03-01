@@ -1,0 +1,33 @@
+.form{
+    
+    background-color:plum;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+.form{
+    position: absolute;
+    left: 35%;
+    border: 3px solid purple;
+  
+}
+
+button:hover{
+    background-color:aqua;
+    
+}
+a{
+    text-decoration: none;
+}
+.line{ 
+    border-bottom: 1px solid;
+
+}
+span{
+    position: absolute;
+    left: 45%;
+    top: 29%;
+    background-color: plum;
+    ;
+    padding: 0 10px;
+}

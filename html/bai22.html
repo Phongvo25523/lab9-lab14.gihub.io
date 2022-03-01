@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bai22.css">
+</head>
+
+<body>
+    <form class="form">
+        <label> Họ Và Tên</label><br>
+        <input type="text"><br>
+        <fieldset>
+            <legend>Giới Tính:</legend>
+            <label for=""><input type="radio" name="gt">Nam </label>
+            <label for=""><input type="radio" name="gt">NỮ </label>
+        </fieldset>
+        
+        <label> Ngày Sinh:</label><br>
+        <input type="date"><br><br>
+        <label> Điểm:</label><br>
+        <input class="diem" type="number" min="0" max="10" step="0.25"><br><br>
+        <label> Nghề Ngiệp:</label><br>
+
+        <input list="abc">
+        <datalist id="abc">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </datalist>
+        <fieldset>
+            <legend>Sở Thích</legend>
+            <label for=""><input type="radio" name="gt"> Thể Thao </label>
+            <label for=""><input type="radio" name="gt">Du Lịch </label>
+            <label for=""><input type="radio" name="gt">Âm Nhạc </label>
+            <label for=""><input type="radio" name="gt">Âmr Thực</label>
+        </fieldset>
+        <label for=""> Ghi Chú</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <hr>
+        <button class="button">Đăng Kí</button>
+        <button class="button">Nhập Lại</button>
+    </form>
+</body>
+
+</html>

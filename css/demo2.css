@@ -1,0 +1,15 @@
+.form{
+   font-weight: bold;
+   position: absolute;
+   left:35%;
+   text-align: center;
+}
+form>input{
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+    padding:5px;
+}
+form{
+    border: 4px solid orange;
+    background-color: #ccc
+}

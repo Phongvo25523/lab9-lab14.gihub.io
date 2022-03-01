@@ -1,0 +1,43 @@
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+.boxleft{
+    float: left;
+    width: calc( 50% - 20px);
+    
+   
+}
+.boxright{
+    float: left;
+    width: 30%;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+.boxright a{
+    height:340px;
+    width:800px;
+
+}
+.boxright video{
+    height:340px;
+    width:650px;
+    background-color:bisque;
+    margin-right:10px;
+    float: Left;
+}
+.boxright img{
+    height:100px;
+    width: 140px;
+    margin-bottom: 20px;
+    float:Left;
+}
